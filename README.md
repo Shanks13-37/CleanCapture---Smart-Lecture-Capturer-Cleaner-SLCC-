@@ -1,6 +1,5 @@
 # CleanCapture---Smart-Lecture-Capturer-Cleaner-SLCC-
 
-# Lecture Audio Cleaner and Segmenter
 
 This project processes noisy classroom lecture recordings to:
 - Detect speech vs silence
