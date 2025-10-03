@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lecture Audio Cleaner</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎧 Lecture Audio Cleaner</h1>
+    <p>Upload a lecture recording to clean, segment, reconstruct, and transcribe it.</p>
+
+    <form action="/process" method="POST" enctype="multipart/form-data">
+      <label for="audio">Choose your audio file (.wav preferred):</label>
+      <input type="file" id="audio" name="audio" accept="audio/*" required>
+
+      <button type="submit">Process Audio</button>
+    </form>
+  </div>
+</body>
+</html>

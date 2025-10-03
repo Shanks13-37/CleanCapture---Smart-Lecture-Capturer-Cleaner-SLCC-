@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+uploads/
+vad_project_env/
+.env
+*.wav
+*.webm

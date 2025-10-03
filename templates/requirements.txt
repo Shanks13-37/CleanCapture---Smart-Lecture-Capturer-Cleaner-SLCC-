@@ -1,0 +1,7 @@
+flask
+librosa
+numpy
+pandas
+soundfile
+scipy
+SpeechRecognition

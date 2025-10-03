@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Processing Results</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>✅ Audio Processed Successfully</h2>
+
+    <div class="section">
+      <h3>📥 Downloads</h3>
+      <ul class="downloads">
+        <li><a href="/download/{{ cleaned_audio }}">🎧 Download Cleaned Audio</a></li>
+        <li><a href="/download/{{ metadata_file }}">📄 Download Metadata CSV</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>📝 Transcript</h3>
+      <pre class="transcript">{{ transcript }}</pre>
+    </div>
+
+    <div class="section">
+      <a href="/" class="back-button">🔄 Process Another File</a>
+    </div>
+  </div>
+</body>
+</html>
